@@ -3,7 +3,7 @@ use shuttle_actix_web::ShuttleActixWeb;
 
 #[get("/")]
 async fn hello_world() -> &'static str {
-    "Hello World!"
+    "Hi World ✨"
 }
 
 #[shuttle_runtime::main]
